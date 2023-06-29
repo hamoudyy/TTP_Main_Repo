@@ -1,0 +1,30 @@
+ *  h1, h2, h3{
+    color: blue;
+ } 
+
+body {
+   background-color:aqua;
+}
+
+container {
+   border: 4px;
+   border-right: 2px dotted blue;
+   border-bottom: ;
+}
+
+a {
+   font-size: 2rem;
+   color: rgb(rgb(63, 32, 32), rgb(20, 27, 20), blue)
+   text-align: center;
+}
+
+* {
+   padding: 4;
+   margin:0;
+   margin-top: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+   box-sizing: border-box;
+}
+
