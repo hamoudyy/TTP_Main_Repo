@@ -81,14 +81,14 @@ h1 {
 
 } */
 
-
+/* 
 * {
-    /* margin - */
+
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 /* }
 
@@ -101,7 +101,7 @@ h1 {
 } */
 
 
-*{
+/* *{
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -112,7 +112,7 @@ main {
     text-align: left;
     text-indent: 40px;
     line-height: 1.5;
-    /* letter-spacing: .2em; */
+     letter-spacing: .2em; 
     word-spacing: .8em;
     color: red;
     font-weight: 600;
@@ -120,10 +120,338 @@ main {
 
 
 
+} */
+
+/* body {
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: crosshair;
+    color: rgb(99,99,215);
+
 }
 
 
 
+a:visited {
+    color: red;
+}
+
+
+a:hover {
+    color: chartreuse;
+}
+
+
+a:active {
+    color: darkolivegreen
+} */
+
+/* body {
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+ol {
+    list-style-type: upper-roman; */
+
+/* 
+ul {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: red; */
+    /* list-style-image: url("../imagesassign/raspberrypi.jpg");
+    width: 40px;
+    height: 40px; */
+/* }   
+
+ul li {
+    color: green
+} */
 
 
 
+/*select specific li childs */
+
+
+
+/* ul li:nth-child(2){
+    color: red;
+} */
+
+/* 
+ul li:nth-child(3){
+    color: blue;
+} */
+
+
+/* stylize bullet points */
+
+
+/* ul ::marker {
+    color: purple;
+    font-family: fantasy;
+    font-size: 2rem;
+    content: "$4";
+} */
+
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+ul {
+    padding: 0.5rem;
+    text-align: right;
+    background-color: black;
+}
+
+a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+    background-color: red;
+}
+
+li {
+    display: inline-block;
+}
+
+ */
+
+/* */
+
+ /* body {
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+.columns {
+    column-count: 4;
+    column-width: 250px;
+    column-rule: 4px dotted black;
+    column-gap: 3rem;
+
+}
+
+.columns p { 
+
+margin-top: 0;
+
+}
+
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    column-span: all;
+}
+
+.nowrap {
+    white-space: nowrap;
+} */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+
+.outer-container{
+    border: 3px solid red;
+    width: 900px;
+    height: 500px;
+    margin: 90px;
+    position: relative;
+    
+}
+
+.inner-container {
+    border: 3px solid blue;
+    width: 700px;
+    height: 200px;
+    margin: 100px;
+    /* position: relative; */
+    
+/* }
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: green;
+    padding: 1rem;
+}
+
+/* using the paragraph element to move */
+
+/* .absolute {
+    background-color: green;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+}
+
+ */
+
+
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.animation {
+    width: 200px;
+    height: 200px;
+    margin: 200px;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+    font-family: bold;
+    text-align: center;
+    transition: width 2s, height 2s, background-color 2s;
+
+}
+
+
+.animation:hover {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+}
+
+
+.keyframe-animation {
+
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-play-state: running;
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+
+}
+
+section p {
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (min-width:600px) {
+    body {
+        background-color: #f8f9fa;
+
+    }
+    section p {
+        color: green;
+    }
+}
+
+@media(min-width: 900px) {
+    body {
+        background-color: #e9ecef;
+    }
+    section p {
+        color: red;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header {
+        border-bottom: 2px solid #666;
+    }
+}
+
+@media (orientation: landscape) {
+    header {
+        background-color: darkblue;
+    }
+}
+
+@media (orientation: portraint) {
+    header {
+        background-color: #ffc107;
+    }
+}
+
+@media(min-resolution: 2ddpx) {
+    body {
+        font-size: 18px;
+    }
+    
+}
+
+@media (aspect-ratio: 16/9) {
+    body {
+        line-height: 1.5;
+    }
+}
+
+@media (hover:hover) {
+    section p {
+        text-decoration: underline;
+    }
+}
